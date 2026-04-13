@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Room | Gacha Operations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gray: {
+                            900: '#121212',
+                            800: '#1e1e1e',
+                            750: '#2a2a2a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-900 text-gray-300 p-8 font-sans">
+    <div class="max-w-4xl mx-auto">
+        <div class="flex justify-between items-end mb-8 border-b border-gray-700 pb-4">
+            <div>
+                <h1 class="text-3xl font-bold text-white tracking-tight">Control Room</h1>
+                <p class="text-sm text-gray-400 mt-1">Database Configuration & Telemetry Scrubbing</p>
+            </div>
+            <a href="index.html"
+                class="text-sm bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-lg border border-gray-600 transition">&larr;
+                Back to Dashboard</a>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8">
+            <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 shadow-lg">
+                <h2 class="text-xl font-bold text-white mb-4 border-b border-gray-700 pb-2">Active Operations
+                    Configuration</h2>
+                <div id="settings-grid" class="space-y-4">
+                    <p class="text-gray-500 italic">Fetching secure database...</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 shadow-lg">
+                <h2 class="text-xl font-bold text-white mb-4 border-b border-gray-700 pb-2">Recent Telemetry Ledger</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <thead class="text-xs text-gray-400 uppercase bg-gray-900 border-b border-gray-700">
+                            <tr>
+                                <th class="px-4 py-3">Timestamp (UTC)</th>
+                                <th class="px-4 py-3">Game</th>
+                                <th class="px-4 py-3">Task</th>
+                                <th class="px-4 py-3 text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ledger-table" class="divide-y divide-gray-700">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/settings.js"></script>
+</body>
+
+</html>
