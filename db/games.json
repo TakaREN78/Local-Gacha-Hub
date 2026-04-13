@@ -1,0 +1,71 @@
+[{
+    "id": "fgo_na",
+    "name": "Fate/Grand Order",
+    "region": "NA",
+    "reset_utc_hour": 4,
+    "theme": "border-blue-500"
+  },
+  {
+    "id": "arknights_endfield",
+    "name": "Arknights: Endfield",
+    "region": "Asia",
+    "reset_utc_hour": 20,
+    "theme": "border-yellow-500"
+  },
+  {
+    "id": "hsr",
+    "name": "Honkai: Star Rail",
+    "region": "Asia",
+    "reset_utc_hour": 20,
+    "theme": "border-purple-500"
+  },
+  {
+    "id": "genshin",
+    "name": "Genshin Impact",
+    "region": "Asia",
+    "reset_utc_hour": 20,
+    "theme": "border-teal-400"
+  },
+  {
+    "id": "zzz",
+    "name": "Zenless Zone Zero",
+    "region": "Asia",
+    "reset_utc_hour": 20,
+    "theme": "border-green-500"
+  },
+  {
+    "id": "nikke",
+    "name": "GODDESS OF VICTORY: NIKKE",
+    "region": "SEA",
+    "reset_utc_hour": 20,
+    "theme": "border-pink-500"
+  },
+  {
+    "id": "gfl2",
+    "name": "Girls' Frontline 2: Exilium",
+    "region": "Asia",
+    "reset_utc_hour": 21,
+    "theme": "border-orange-500"
+  },
+  {
+    "id": "trickcal",
+    "name": "Trickcal: Chibi Go",
+    "region": "Global",
+    "reset_utc_hour": 19,
+    "theme": "border-rose-400"
+  },
+  {
+    "id": "starsavior",
+    "name": "StarSavior",
+    "region": "Global",
+    "reset_utc_hour": 19,
+    "theme": "border-indigo-400"
+  },
+  {
+    "id": "umamusume",
+    "name": "Umamusume: Pretty Derby",
+    "region": "Global",
+    "reset_utc_hour": 15,
+    "theme": "border-green-400"
+  }
+]
